@@ -32,28 +32,6 @@ def test_calculate_distance():
     calculated_distance = geometry_analysis.calculate_distance(r1, r2)
     assert expect_distance == calculated_distance
 
-
-# def test_calculate_angle_90():
-#     """Test the calculate_angle function"""
-#     rA = np.array([1,0,0])
-#     rB = np.array([0,0,0])
-#     rC = np.array([0,0,1])
-#     expected_angle = 90
-
-#     calculated_angle = geometry_analysis.calculate_angle(rA,rB,rC,degrees = True)
-#     assert expected_angle == calculated_angle
-
-# def test_calculate_angle_60():
-#     """Test the calculate_angle function"""
-#     rA = np.array([0,0,-1])
-#     rB = np.array([0,1,0])
-#     rC = np.array([1,0,0])
-#     expected_angle = 60
-
-#     calculated_angle = geometry_analysis.calculate_angle(rA,rB,rC,degrees = True)
-#     assert np.isclose(expected_angle, calculated_angle)
-
-
 @pytest.mark.parametrize("p1,p2,p3,expected_angle",
                          [(np.array([1, 0, 0]), np.array([0, 0, 0]), np.array([0, 0, 1]), 90),
                           (np.array([0, 0, -1]), np.array([0, 1, 0]), np.array([1, 0, 0]), 60)])
