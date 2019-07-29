@@ -7,7 +7,8 @@ import numpy as np
 
 
 def calculate_distance(rA, rB):
-    """Calculate the distance between points A and B.
+    """
+    Calculates the distance between points A and B.
     
     Parameters
     ----------
