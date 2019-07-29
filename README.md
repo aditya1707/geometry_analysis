@@ -7,7 +7,7 @@ geometry_analysis
 
 A python package for the MolSSI Software Summer School.
 
-`Documentation<https://geometryanalysis-as.readthedocs.io/en/latest/>`_
+[Documentation](https://geometryanalysis-as.readthedocs.io/en/latest/>)
 ### Copyright
 
 Copyright (c) 2019, Aditya Sonpal
